@@ -944,6 +944,10 @@ footer::after {
   transition: 0.1s;
 }
 
+.mobile-btn {
+  display: none;
+}
+
 @media (max-width: 481px) {
   .logo_burger {
     display: flex;
@@ -1011,7 +1015,7 @@ footer::after {
     justify-content: start;
     align-items: center;
     height: 200vh;
-    width: 100vw;
+    width: 99vw;
     left: 0;
     margin: 0;
     gap: 0;
@@ -1053,7 +1057,7 @@ footer::after {
   }
 
   .text {
-    width: 100vw;
+    width: 75vw;
     padding: 0 0 0 5rem;
   }
 
@@ -1062,13 +1066,17 @@ footer::after {
   }
 
   #p2 {
-    width: 80vw;
+    width: 75vw;
     height: max-content;
   }
 
   .text h2 {
-    width: 80vw;
+    width: 75vw;
     height: max-content;
+  }
+
+  .text a {
+    width: 75vw;
   }
 
   .main-section {
@@ -1105,14 +1113,14 @@ footer::after {
   }
 
   .div-1-child {
-    width: 100vw;
+    width: 100%;
     height: max-content;
     display: flex;
   }
 
   .div-1-child img {
     height: 366px;
-    width: 100vw;
+    width: 100%;
   }
 
   .div-4 {
@@ -1216,21 +1224,207 @@ footer::after {
 
   .div-4 {
     width: 100vw;
+    height: 1120px;
     display: flex;
     align-items: start;
   }
 
   .parent {
-    height: 300px;
+    height: 500px;
+    width: 100%;
   }
 
   .div1 {
     width: 80vw;
-    height: 170px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
   }
 
   .div1 p {
     font-size: 20px;
     width: 100%;
+  }
+
+  #p-title {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  #p-title1,
+  #p-title2,
+  #p-title3 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  #p-description,
+  #p-description1,
+  #p-description2,
+  #p-description3 {
+    margin: 1rem 0 0 0;
+  }
+
+  .div2 a,
+  .div3 a,
+  .div4 a,
+  .div5 a {
+    margin: 2rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .div3 a {
+    margin: 2rem 0 0 0;
+  }
+
+  .div2 {
+    height: max-content;
+  }
+
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    padding: 0 0 0 0.5rem;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+  }
+
+  .before-footer {
+    width: 100vw;
+  }
+
+  #before-footer-text {
+    width: 100vw;
+    height: 170px;
+    margin: 0 0 0 1rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #before-footer-text p {
+    font-size: 30px;
+  }
+
+  footer {
+    height: 140vh;
+  }
+
+  #footer-text-bloc1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+  }
+
+  #footer-span2 {
+    width: 40vw;
+  }
+
+  .footer-text {
+    left: 0;
+    height: 580px;
+    width: 95%;
+    margin: 0 0.5rem 0 0.5rem;
+  }
+
+  #pp1 {
+    width: 75px;
+    height: 20px;
+  }
+
+  #footer-text-bloc2 {
+    gap: 35px;
+    width: 100%;
+  }
+
+  .footer-bloc1 a {
+    font-size: 11px;
+  }
+
+  .rectangle1 {
+    display: none;
+  }
+
+  .footer-bloc3 {
+    margin: 0;
+    width: 110px;
+  }
+
+  .footer-bloc3 h2 {
+    width: max-content;
+  }
+
+  .footer-bloc3 p {
+    font-size: 11px;
+    width: 103px;
+  }
+
+  .footer-bloc3 h1 {
+    width: max-content;
+    font-size: 8px;
+  }
+
+  .app-logos {
+    width: 100vw;
+  }
+
+  #footer-text-bloc3 {
+    width: 100vw;
+    gap: 10px;
+  }
+
+  .burger-menu {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+  }
+  .burger-menu-show {
+    width: 100vw;
+    transition: 0.5s;
+  }
+  .none {
+    display: none;
+  }
+  .block {
+    display: block;
+  }
+  #button {
+    z-index: 4;
+  }
+  .mobile-btn {
+    background-color: #ffd723;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 25px;
+    color: #444a34;
+    font-family: "Poppins";
+    transition: 0.1s;
+    opacity: 0;
+  }
+  .burger-menu nav {
+    z-index: 4;
+    position: relative;
+    width: 50vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-btn.block {
+    opacity: 1;
+    transition: 0.1s;
+  }
+  .burger-menu nav button {
+    margin: 10rem 0 0 0;
   }
 }
