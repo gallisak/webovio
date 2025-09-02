@@ -1058,7 +1058,6 @@ footer::after {
 
   .text {
     width: 75vw;
-    padding: 0 0 0 5rem;
   }
 
   #p1 {
@@ -1141,6 +1140,7 @@ footer::after {
 
   #div-1-child-upper-bloc-text p {
     width: 70vw;
+    height: max-content;
   }
 
   #div-1-child-upper-bloc-div {
@@ -1172,6 +1172,7 @@ footer::after {
 
   #p-3 {
     width: 80vw;
+    height: max-content;
   }
 
   .div-3 {
