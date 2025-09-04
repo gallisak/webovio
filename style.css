@@ -1133,14 +1133,15 @@ footer::after {
   }
 
   #div-1-child-upper-bloc-text {
-    width: 80vw;
-    height: max-content;
-    margin: 1rem 0 0 0;
+    width: 72vw;
+    height: 50%;
+    margin: 1rem 1rem 3rem 1rem;
   }
 
   #div-1-child-upper-bloc-text p {
-    width: 70vw;
     height: max-content;
+    width: 90%;
+    font-size: 15px;
   }
 
   #div-1-child-upper-bloc-div {
@@ -1155,6 +1156,14 @@ footer::after {
   #p_1,
   #p_2 {
     width: 40vw;
+  }
+
+  #p_2 {
+    font-size: 12px;
+  }
+
+  #p_1 {
+    font-size: 14px;
   }
 
   .div-2 {
@@ -1427,5 +1436,132 @@ footer::after {
   }
   .burger-menu nav button {
     margin: 10rem 0 0 0;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .partners {
+    width: 100vw;
+    left: 0;
+  }
+  .partners-logos {
+    width: 80vw;
+  }
+
+  .partners-logos img {
+    width: 15vw;
+    margin: 0 1rem 0 1rem;
+  }
+
+  #first_p {
+    width: 150px;
+  }
+
+  .text-span1 h1 {
+    font-size: 40px;
+  }
+
+  .logo_burger {
+    width: 93.5%;
+    left: 0;
+    padding: 0;
+    margin: 1rem 2rem;
+  }
+
+  .btn_burger {
+    width: 35px;
+    height: 35px;
+  }
+
+  .btn_burger img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .bloc-1-child-text p {
+    margin: 3rem 0 0 0;
+  }
+
+  .text-div {
+    left: 0;
+    margin: 0 0 0 7%;
+  }
+
+  #p1 {
+    width: 150px;
+  }
+
+  .text h2 {
+    height: 265px;
+  }
+
+  .bloc-2 {
+    margin: 3rem 0 0 0;
+    gap: 15px;
+  }
+
+  #div-1-child-upper-bloc-text p {
+    font-size: 12px;
+  }
+
+  #div-1-child-upper-bloc-text {
+    margin: 1rem 1rem 0 1rem;
+  }
+
+  #div-1-child-upper-bloc-div {
+    width: 80%;
+    margin: 1rem 1rem 1rem 2rem;
+  }
+
+  #div-1-child-upper-bloc-div-text {
+    width: 142px;
+  }
+
+  .span-3-child {
+    height: max-content;
+  }
+
+  #p_1 {
+    width: 100%;
+  }
+
+  #h2-1 {
+    height: max-content;
+  }
+
+  #p-3 {
+    height: max-content;
+  }
+
+  #div-1-child-upper-bloc-text1 {
+    margin: 1rem 1rem 0 1rem;
+  }
+
+  #div-1-child-upper-bloc-text1 p {
+    font-size: 12px;
+  }
+
+  #before-footer-text p {
+    font-size: 40px;
+  }
+
+  footer {
+    height: 121vh;
+  }
+
+  #footer-text-bloc1 {
+    width: 300px;
+  }
+
+  #footer-span2 {
+    width: 160px;
+  }
+
+  .footer-bloc3 h1 {
+    font-size: 16px;
+  }
+
+  .app-logos {
+    width: 160px;
   }
 }
