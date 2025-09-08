@@ -5,12 +5,6 @@ Designed to look great on all devices (mobile, tablet, desktop) with a contempor
 
 ---
 
-## Demo
-*(Replace with your live demo URL, e.g. GitHub Pages)*  
-https://gallisak.github.io/webovio
-
----
-
 ## Features
 - Two-page layout: **Home** and **Details/Contact** (or another secondary page of your choice).  
 - Fully responsive (mobile-first) and tested on typical breakpoints.  
